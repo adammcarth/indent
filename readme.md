@@ -1,5 +1,9 @@
 # Indent [![Gem Version](https://badge.fury.io/rb/indent.svg)](https://rubygems.org/gems/indent)
 
+``` ruby
+require "indent"
+```
+
 **indent(spaces)**
 
 ``` ruby
@@ -15,7 +19,7 @@
 
 #=> "<h1>Hey.</h1>\n    <p>I'm Adam!</p>\n    <a>Follow me...</a>"
 ```
-``` html
+``` erb
 <html>
   <body>
     <%= yield.code_indent(4) %>
